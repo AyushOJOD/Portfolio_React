@@ -14,10 +14,10 @@ const Work = () => {
           <p className='py-6'>// Check out some of my recent works</p>
         </div>
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
-          <WorkComp Image={Crypto} Name={"React Application"} Demo={'https://crypto-web-app-eight.vercel.app/'} Code={'https://github.com/AyushOJOD/Crypto_app_react'} />
-          <WorkComp Image={Weather} Name={"Api on React"} Demo={'https://weather-app-nu-sable.vercel.app/'} Code={'https://github.com/AyushOJOD/Weather_app_react'} />
-          <WorkComp Image={Todo} Name={"Full Stack App"} SampleEmail={'Sample@gmail.com'} SamplePass={'Sample@1234'} Demo={'https://todo-mern-vxrj.vercel.app/'} Code={'https://github.com/AyushOJOD/todo_MERN'} />
-          <WorkComp Image={Portfolio} Name={'Portfolio'} Demo={'https://portfolio-react-ashen-eta.vercel.app/'} Code={'https://github.com/AyushOJOD/Portfolio_React'} />
+          <WorkComp Image={Crypto} Name={"React Application"} Demo={'https://crypto-web-app-eight.vercel.app'} Code={'https://github.com/AyushOJOD/Crypto_app_react'} />
+          <WorkComp Image={Weather} Name={"Api on React"} Demo={'https://weather-app-nu-sable.vercel.app'} Code={'https://github.com/AyushOJOD/Weather_app_react'} />
+          <WorkComp Image={Todo} Name={"Full Stack App"} SampleEmail={'Sample@gmail.com'} SamplePass={'Sample@1234'} Demo={'https://todo-mern-vxrj.vercel.app'} Code={'https://github.com/AyushOJOD/todo_MERN'} />
+          <WorkComp Image={Portfolio} Name={'Portfolio'} Demo={'https://portfolio-react-ashen-eta.vercel.app'} Code={'https://github.com/AyushOJOD/Portfolio_React'} />
         </div>
       </div>
     </div>
