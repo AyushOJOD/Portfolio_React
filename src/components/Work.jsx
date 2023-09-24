@@ -3,6 +3,7 @@ import Crypto from '../assets/Projects/Crypto.png';
 import Todo from '../assets/Projects/Todo.png';
 import Weather from '../assets/Projects/Weather.png';
 import WorkComp from './WorkComp';
+import Portfolio from '../assets/Projects/Portfolio.png';
 
 const Work = () => {
   return (
@@ -16,6 +17,7 @@ const Work = () => {
           <WorkComp Image={Crypto} Name={"React Application"} Demo={'https://crypto-web-app-eight.vercel.app/'} Code={'https://github.com/AyushOJOD/Crypto_app_react'} />
           <WorkComp Image={Weather} Name={"Api on React"} Demo={'https://weather-app-nu-sable.vercel.app/'} Code={'https://github.com/AyushOJOD/Weather_app_react'} />
           <WorkComp Image={Todo} Name={"Full Stack App"} SampleEmail={'Sample@gmail.com'} SamplePass={'Sample@1234'} Demo={'https://todo-mern-vxrj.vercel.app/'} Code={'https://github.com/AyushOJOD/todo_MERN'} />
+          <WorkComp Image={Portfolio} Name={'Portfolio'} Demo={'https://portfolio-react-ashen-eta.vercel.app/'} Code={'https://github.com/AyushOJOD/Portfolio_React'} />
         </div>
       </div>
     </div>
