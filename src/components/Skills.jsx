@@ -17,9 +17,10 @@ const Skills = () => {
 
       {/*Container*/}
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full text-white'>
-        <div>
-          <p className='text-4xl font-bold inline border-b-4 border-pink-500 '>Expirence</p>
-          <p className='py-4'>// These are the technologies I have worked with</p>
+        <div className='mt-9'>
+          <p className='text-4xl font-bold inline'>Experience</p>
+          <p className='py-4 '>// These are the technologies I have worked with</p>
+
         </div>
 
         <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8'>
@@ -31,7 +32,7 @@ const Skills = () => {
           <SkillComp source={react} alter={"React Js"} tag={'React Js'} />
           <SkillComp source={JS} alter={"JavaScript"} tag={"JavaScripy"} />
           <SkillComp source={mongo} alter={"Mongo"} tag={"MongoDB"} />
-          <SkillComp source={node} alter={"Node"} tag={Node.js} />
+          <SkillComp source={node} alter={"Node"} tag={"Node.js"} />
           <SkillComp source={tailwind} alter={"Tailwind"} tag={"TailWind"} />
         </div>
       </div>

@@ -8,7 +8,6 @@ import { Typewriter } from 'react-simple-typewriter'
 import { Fragment } from 'react'
 import { Menu, Transition } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
-import Socials from './Socials';
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -40,9 +39,9 @@ const Home = () => {
             <Link className='flex gap-2' to={'/work'}>View Work < HiArrowNarrowRight size={25} /> </Link>
           </button>
 
-          <Menu as="div" className=" lg:hidden relative inline-block text-left">
+          <Menu as="div" className="lg:hidden relative inline-block text-left">
             <div>
-              <Menu.Button className=' text-white sm:mx-4 border-2 px-6 py-4 my-2 flex item-center gap-2 hover:bg-pink-300 hover:text-[#0a192f] hover:font-bold duration-300'>
+              <Menu.Button className='text-white sm:mx-4 border-2 px-6 py-4 my-2 flex item-center gap-2 hover:bg-pink-300 hover:text-[#0a192f] hover:font-bold duration-300'>
                 Socials
                 <ChevronDownIcon className="-mr-1 h-5 w-5 text-gray-400" aria-hidden="true" />
               </Menu.Button>
@@ -57,7 +56,7 @@ const Home = () => {
               leaveFrom="transform opacity-100 scale-100"
               leaveTo="transform opacity-0 scale-95"
             >
-              <Menu.Items className="absolute right-0 z-10 mt-2 origin-top-right rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+              <Menu.Items className="absolute right-0 mt-2 origin-top-right rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                 <div className="py-1">
                   <Menu.Item>
                     {({ active }) => (
