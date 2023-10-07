@@ -2,7 +2,7 @@ import React from 'react';
 
 const WorkComp = ({ Image, Name, SampleEmail, SamplePass, Demo, Code }) => {
   return (
-    <div className='' style={{ backgroundImage: `url(${Image})`, backgroundSize: 'cover', }}>
+    <div className='flex items-center justify-center' style={{ backgroundImage: `url(${Image})`, backgroundSize: 'cover', }}>
       <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
         <div className='opacity-0 group-hover:opacity-100'>
           <span className='text-2xl font-bold text-white tracking-wider'>

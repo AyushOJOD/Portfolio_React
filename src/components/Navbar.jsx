@@ -4,6 +4,7 @@ import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import logo from '../assets/logo.png'
 import { Link } from 'react-router-dom';
+import Socials from './Socials';
 
 const Navbar = () => {
 
@@ -51,7 +52,23 @@ const Navbar = () => {
       {/*Social Icons*/}
       <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
         <ul>
-          <li className='w-[160px] h-[60px] flex justify-between item-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600 rounded-md'>
+          <Socials icon={<FaLinkedin size={30} />} text={'LinkedIn'} color={'bg-blue-600'} link={"https://www.linkedin.com/in/ayush-srivastava-1a66a7223/"} />
+          <Socials icon={<FaGithub size={30} />} text={'Github'} color={'bg-black'} link={"https://github.com/AyushOJOD/"} />
+          <Socials icon={<HiOutlineMail size={30} />} text={'Email'} color={'bg-green-400'} link={"mailto: ayushsrivastava.0407@gmail.com"} />
+          <Socials icon={<BsFillPersonLinesFill size={30} />} text={'Resume'} color={'bg-slate-600'} link={"https://drive.google.com/file/d/1vD7wSIkvx17c5Gv-D6Rji0J7olHoIwaj/view?usp=drive_link"} />
+
+        </ul>
+      </div>
+    </div>
+  )
+}
+
+export default Navbar
+
+
+
+/*
+ <li className='w-[160px] h-[60px] flex justify-between item-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600 rounded-md'>
             <a className='flex justify-between items-center w-full text-grey-300 '
               href="https://www.linkedin.com/in/ayush-srivastava-1a66a7223/" target='_blank'>
               Linkedin <FaLinkedin size={30} />
@@ -75,10 +92,5 @@ const Navbar = () => {
               Resume <BsFillPersonLinesFill size={30} />
             </a>
           </li>
-        </ul>
-      </div>
-    </div>
-  )
-}
 
-export default Navbar
+*/
