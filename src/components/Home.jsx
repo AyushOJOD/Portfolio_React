@@ -89,7 +89,7 @@ const Home = () => {
                     {({ active }) => (
                       <li className='w-[160px] h-[50px] flex justify-between item-center bg-slate-600 rounded-md'>
                         <a className='flex justify-between items-center w-full text-grey-300 '
-                          href="https://drive.google.com/file/d/1vD7wSIkvx17c5Gv-D6Rji0J7olHoIwaj/view?usp=drive_link" target='_blank'>
+                          href="https://drive.google.com/file/d/1m4t-xiUhmWzI1c1saj33sn-MRLrx6ooY/view?usp=drive_link" target='_blank'>
                           Resume <BsFillPersonLinesFill size={30} />
                         </a>
                       </li>)}
