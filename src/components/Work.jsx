@@ -4,6 +4,7 @@ import Todo from '../assets/Projects/Todo.png';
 import Weather from '../assets/Projects/Weather.png';
 import WorkComp from './WorkComp';
 import Portfolio from '../assets/Projects/Portfolio.png';
+import Webpark from '../assets/Projects/Webpark.png'
 
 const Work = () => {
   return (
@@ -14,6 +15,7 @@ const Work = () => {
           <p className='py-6'>// Check out some of my recent works</p>
         </div>
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+          <WorkComp Image={Webpark} Name={"Web Park"} Demo={'https://e-commece-mern.vercel.app/'} Code={'https://github.com/AyushOJOD/E-Commece-MERN'} />
           <WorkComp Image={Crypto} Name={"Crypt Crypto"} Demo={'https://crypto-web-app-eight.vercel.app'} Code={'https://github.com/AyushOJOD/Crypto_app_react'} />
           <WorkComp Image={Weather} Name={"Weather App"} Demo={'https://weather-app-nu-sable.vercel.app'} Code={'https://github.com/AyushOJOD/Weather_app_react'} />
           <WorkComp Image={Todo} Name={"TODO Full Stack"} SampleEmail={'Sample@gmail.com'} SamplePass={'Sample@1234'} Demo={'https://todo-mern-vxrj.vercel.app'} Code={'https://github.com/AyushOJOD/todo_MERN'} />
