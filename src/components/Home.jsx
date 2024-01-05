@@ -22,7 +22,7 @@ const Home = () => {
         <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>Ayush Srivastava</h1>
         <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0] '>I am a
           <Typewriter
-            words={[' Flutter Developer', ' React Developer', ' Full Stack Developer']}
+            words={[' React Developer', ' Flutter Developer', ' Full Stack Developer']}
             loop={0}
             cursor
             cursorStyle='|'
@@ -62,7 +62,7 @@ const Home = () => {
                     {({ active }) => (
                       <li className='w-[160px] h-[50px] flex justify-between item-center bg-blue-600 rounded-md'>
                         <a className='flex justify-between items-center w-full text-grey-300 '
-                          href="https://www.linkedin.com/in/ayush-srivastava-1a66a7223/" target='_blank'>
+                          href="https://www.linkedin.com/in/ayush-srivastava-1a66a7223/" target='_blank' rel="noreferrer">
                           Linkedin <FaLinkedin size={30} />
                         </a>
                       </li>)}
@@ -80,7 +80,7 @@ const Home = () => {
                     {({ active }) => (
                       <li className='w-[160px] h-[50px] flex justify-between item-center bg-black rounded-md'>
                         <a className='flex justify-between items-center w-full text-white'
-                          href="https://github.com/AyushOJOD/" target='_blank'>
+                          href="https://github.com/AyushOJOD/" target='_blank' rel="noreferrer">
                           Github <FaGithub size={30} />
                         </a>
                       </li>)}
@@ -89,7 +89,7 @@ const Home = () => {
                     {({ active }) => (
                       <li className='w-[160px] h-[50px] flex justify-between item-center bg-slate-600 rounded-md'>
                         <a className='flex justify-between items-center w-full text-grey-300 '
-                          href="https://drive.google.com/file/d/1fk5yy2rInsgEe9RiHpN_zZATtlCUHk3l/view?usp=drive_link" target='_blank'>
+                          href="https://drive.google.com/file/d/1fk5yy2rInsgEe9RiHpN_zZATtlCUHk3l/view?usp=drive_link" target='_blank' rel="noreferrer">
                           Resume <BsFillPersonLinesFill size={30} />
                         </a>
                       </li>)}

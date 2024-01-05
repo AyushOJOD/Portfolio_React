@@ -9,6 +9,7 @@ import mongo from '../assets/mongo.png';
 import node from '../assets/node.png';
 import react from '../assets/react.png';
 import tailwind from '../assets/tailwind.png';
+import redux from "../assets/redux.jpg"
 import SkillComp from './SkillComp';
 
 const Skills = () => {
@@ -30,10 +31,11 @@ const Skills = () => {
           <SkillComp source={flutter} alter={"Flutter"} tag={"Flutter"} />
           <SkillComp source={github} alter={"GitHub"} tag={"GitHub"} />
           <SkillComp source={react} alter={"React Js"} tag={'React Js'} />
-          <SkillComp source={JS} alter={"JavaScript"} tag={"JavaScripy"} />
+          <SkillComp source={JS} alter={"JavaScript"} tag={"JavaScript"} />
           <SkillComp source={mongo} alter={"Mongo"} tag={"MongoDB"} />
           <SkillComp source={node} alter={"Node"} tag={"Node.js"} />
           <SkillComp source={tailwind} alter={"Tailwind"} tag={"TailWind"} />
+          <SkillComp source={redux} alter={"Redux"} tag={"Redux"} />
         </div>
       </div>
     </div>
