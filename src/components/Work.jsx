@@ -5,6 +5,7 @@ import Weather from '../assets/Projects/Weather.png';
 import WorkComp from './WorkComp';
 import Portfolio from '../assets/Projects/Portfolio.png';
 import Webpark from '../assets/Projects/Webpark.png'
+import Chat from '../assets/Projects/Chat.jpg'
 
 const Work = () => {
   return (
@@ -20,6 +21,7 @@ const Work = () => {
           <WorkComp Image={Weather} description={"Real-time weather app"} Name={"Weather App"} Demo={'https://weather-app-nu-sable.vercel.app'} Code={'https://github.com/AyushOJOD/Weather_app_react'} />
           <WorkComp Image={Todo} description={"TODO App"} Name={"TODO Full Stack"} SampleEmail={'Sample@gmail.com'} SamplePass={'Sample@1234'} Demo={'https://todo-mern-vxrj.vercel.app'} Code={'https://github.com/AyushOJOD/todo_MERN'} />
           <WorkComp Image={Portfolio} Name={'Portfolio'} Demo={'https://portfolio-react-ashen-eta.vercel.app'} Code={'https://github.com/AyushOJOD/Portfolio_React'} />
+          <WorkComp Image={Chat} Name={'Chat App'} Demo={'https://youtu.be/xRTAM3BNAS4'} Code={'https://github.com/AyushOJOD/Chatter-Box-server'} />
         </div>
       </div>
     </div>
