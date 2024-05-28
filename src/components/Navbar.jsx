@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs'
@@ -55,7 +55,7 @@ const Navbar = () => {
           <Socials icon={<FaLinkedin size={30} />} text={'LinkedIn'} color={'bg-blue-600'} link={"https://www.linkedin.com/in/ayush-srivastava-1a66a7223/"} />
           <Socials icon={<FaGithub size={30} />} text={'Github'} color={'bg-black'} link={"https://github.com/AyushOJOD/"} />
           <Socials icon={<HiOutlineMail size={30} />} text={'Email'} color={'bg-green-400'} link={"mailto: ayushsrivastava.0407@gmail.com"} />
-          <Socials icon={<BsFillPersonLinesFill size={30} />} text={'Resume'} color={'bg-slate-600'} link={"https://drive.google.com/file/d/1fk5yy2rInsgEe9RiHpN_zZATtlCUHk3l/view?usp=drive_link"} />
+          <Socials icon={<BsFillPersonLinesFill size={30} />} text={'Resume'} color={'bg-slate-600'} link={"https://drive.google.com/file/d/1klXCZVvodmpwqY55rXarlu6-a81dmKep/view?usp=sharing"} />
 
         </ul>
       </div>
